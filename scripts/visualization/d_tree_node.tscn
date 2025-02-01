@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bmv75j2e8xc6n"]
+
+[ext_resource type="Script" path="res://scripts/visualization/d_tree_node.gd" id="1_o2ffa"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k54lu"]
+bg_color = Color(0.95158, 0.95158, 0.95158, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dmqj2"]
+bg_color = Color(0.6, 0.39, 0.39, 1)
+
+[node name="DTreeNode" type="GraphNode"]
+offset_right = 41.0
+offset_bottom = 23.0
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_k54lu")
+theme_override_styles/titlebar = SubResource("StyleBoxFlat_dmqj2")
+title = "TITEL"
+script = ExtResource("1_o2ffa")

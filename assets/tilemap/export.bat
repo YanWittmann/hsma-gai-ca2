@@ -1,0 +1,1 @@
+aseprite -b tilemaps.aseprite -script export.lua
